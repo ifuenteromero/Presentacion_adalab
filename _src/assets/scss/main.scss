@@ -10,6 +10,8 @@
 
 body {
     font-size: 14px;
+    font-family: 'open sans';
+    color: #54585a;
 }
 /* HEADER */
     .main-title{
@@ -28,6 +30,8 @@ body {
     .main-header{  
         height: 421px;
         background: url("../images/team.jpg") center center no-repeat;
+        /* blurry image, need to be cropped etc still to work well */
+        /* background: url("../images/team_blur.jpg") center center no-repeat; */
         background-size: cover;
         position: relative;
     }
@@ -48,8 +52,6 @@ body {
         background-color: rgba(9, 157, 141,0.95);
         height: 60px;
     }
-
-
 
     .main-menu{
         height: 45px;
@@ -92,6 +94,64 @@ body {
 
 
 /* MAIN */
+    .padding-section {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    .bgcolor {
+        background-color: rgba(184,184,185,0.2);
+    }
+
+    .title-section { 
+        color: aqua;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "rubik",sans-serif;
+        }
+
+    .description{
+        text-align: center;
+    }
+
+    .title-list-description {
+        color: #099d8d;
+
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-team {
+        list-style-type: none;
+        text-align: center;
+
+        padding-left: 0px;
+        padding-bottom: 15px; 
+    }
+
+    .title-type {
+        font-family: "rubik",sans-serif;
+    }
+
+    #weakness {
+        margin-top: 30px;
+    }
+
+    .triangle {
+        margin: auto;
+        width: 30px;
+        height: 30px;
+
+        background-color: #ffffff;
+        z-index: 10;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -15px) rotate(45deg);
+    }
 
 
 /* FOOTER */
