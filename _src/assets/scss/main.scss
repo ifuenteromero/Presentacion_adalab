@@ -8,12 +8,29 @@
     /* border: 0.1px solid pink; */
 }
 
-body {
+html{
     font-size: 14px;
+}
+
+body {
+    /* font-size: 14px; */
     font-family: 'open sans';
     color: #54585a;
 }
 /* HEADER */
+    .main-header{  
+        height: 421px;
+        background: url("../images/hero.jpg") center center no-repeat;
+
+        background-size: cover;
+        position: relative;
+    }
+
+    .main-title-container{
+        background-color: rgba(9, 157, 141,0.95);
+        height: 60px;
+    }
+
     .main-title{
         display: flex;
         justify-content: center;
@@ -21,22 +38,18 @@ body {
         height: 100%;
         text-align: center;
         margin: 0;
-        font-size: 16px;
+        font-size: 1.143rem;
         font-weight: 500;
         color: #fff;
         font-family: 'Rubik', sans-serif;
     }
 
-    .main-header{  
-        height: 421px;
-        background: url("../images/team.jpg") center center no-repeat;
-        /* blurry image, need to be cropped etc still to work well */
-        /* background: url("../images/team_blur.jpg") center center no-repeat; */
-        background-size: cover;
-        position: relative;
+    .main-menu{
+        height: 45px;
+        background-color: rgba(19, 214, 195, 0.95);
     }
 
-    .header-container{
+    .main-menu-list{
         list-style: none;
         display: flex;
         flex-flow: row nowrap;
@@ -48,23 +61,14 @@ body {
         padding-right: 20px;
     }
 
-    .main-header-container{
-        background-color: rgba(9, 157, 141,0.95);
-        height: 60px;
+    .main-menu-item{
+        font-size: 1.071rem;
+        font-weight: 500;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
     }
 
-    .main-menu{
-        height: 45px;
-        background-color: rgba(19, 214, 195, 0.95);
-        
-    }
-    .group-claim-container{
-        height:80px;
-        background-color: #fff;
-
-    }
-
-    .claim-container{
+    .main-claim-big-container{
         width: 100%;
         background-color: transparent;
         padding: 0 15px 0 15px;
@@ -72,8 +76,14 @@ body {
         bottom:-40px;
     }
 
-    .group-claim{
-        font-size: 18px;
+    .main-claim-container{
+        height:80px;
+        background-color: #fff;
+
+    }
+
+    .main-claim{
+        font-size: 1.286rem;
         line-height: 25px;
         font-weight: 500;
         color: #000;
@@ -83,13 +93,6 @@ body {
         align-items: center;
         height: 100%;
         text-align: center;
-    }
-
-    .header-item{
-        font-size: 15px;
-        font-weight: 500;
-        color: #fff;
-        font-family: 'Rubik', sans-serif;
     }
 
 
@@ -155,37 +158,38 @@ body {
 
 
 /* FOOTER */
-    .main_footer {
+   
+    .main-footer {
         text-align: center;
         padding: 30px;
         /* Top grey line separating the footer from the rest of the website */  
         border-top: 1px solid #b8b8b9;
     }
 
-    .main_footer_copyright {
+    .main-footer-copyright {
         margin-top: 100px;
         color: #b8b8b9;
         font-family: "Open Sans", sans-serif;
-        font-size: 14px;
+        font-size: 1rem; 
     }
 
-    .main_footer_menu {
+    .main-footer-menu {
         padding-top: 20px;
         padding-bottom: 30px;
         color: #54585a;
         font-family: "Open Sans", sans-serif;
         font-weight: 600;
-        font-size: 14px;
-        /* font-size: 1rem; */
+        font-size: 1rem;
+    
         opacity: 0.75;
         text-transform: uppercase;
     }
 
-    .main_footer_container {
+    .main-footer-menu-list {
         list-style: none;
     }
 
-    .main_footer_logo {
+    .main-footer-logo-container {
         width: 115.9px;
         /* Centering the div conteining the image */
         position: absolute;
@@ -193,6 +197,6 @@ body {
         transform: translate(-50%, 0);
     }
 
-    #main_footer_adalab_logo {
+    #main-footer-logo {
         width: 100%;
     }
