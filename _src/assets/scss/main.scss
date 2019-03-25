@@ -20,8 +20,18 @@ body {
 /* HEADER */
     .main-header{  
         height: 421px;
-        background: url("../images/hero02.jpg") center center no-repeat;
-        /* background: url("../images/hero.jpg") center center no-repeat; */
+        
+        /* Just for desktop version, to be implemented on responsive */
+        /* height: 550px; */
+
+        /* this is working fine for responsive! */
+        /* background: url("../images/hero-resizing-mobil-60-v2c.jpg") center center no-repeat; */
+
+        /* this is working fine for responsive! */
+        /* background: url("../images/hero02-modif-60-v2c.jpg") center center no-repeat; */
+
+        /* this is working fine for responsive! */
+        background: url("../images/hero03-modif-60-v1c.jpg") center center no-repeat;
 
         background-size: cover;
         position: relative;
@@ -244,6 +254,7 @@ a {
     .main-footer {
         text-align: center;
         padding: 30px;
+        padding-bottom: 100px;
         /* Top grey line separating the footer from the rest of the website */  
         border-top: 1px solid #b8b8b9;
     }
