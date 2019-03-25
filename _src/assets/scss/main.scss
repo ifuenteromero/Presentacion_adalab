@@ -225,7 +225,18 @@ body {
     width: 2px;
     height: 2px;
 }
+.media-link {
+    color: #099d8d;
+    }
+a {
+    text-decoration: none;
+}
 
+   /*en version web
+
+.media-link:hover {
+    background-color: #099d8d;
+    color: white;
 
 
 /* FOOTER */
