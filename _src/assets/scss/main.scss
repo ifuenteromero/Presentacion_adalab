@@ -1,6 +1,61 @@
-@import 'core/settings';
+/* General common rules */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    /* Aux border */
+    /* border: 0.1px solid pink; */
+}
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	height: 100vh;
+    font-size: 14px;
 }
+/* HEADER */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+    .main_footer {
+        text-align: center;
+        padding: 30px;
+        /* Top grey line separating the footer from the rest of the website */  
+        border-top: 1px solid #b8b8b9;
+    }
+
+    .main_footer_copyright {
+        margin-top: 100px;
+        color: #b8b8b9;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+    }
+
+    .main_footer_menu {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #54585a;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        /* font-size: 1rem; */
+        opacity: 0.75;
+        text-transform: uppercase;
+    }
+
+    .main_footer_container {
+        list-style: none;
+    }
+
+    .main_footer_logo {
+        width: 115.9px;
+        /* Centering the div conteining the image */
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    #main_footer_adalab_logo {
+        width: 100%;
+    }
