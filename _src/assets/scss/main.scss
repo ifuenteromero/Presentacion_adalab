@@ -12,6 +12,83 @@ body {
     font-size: 14px;
 }
 /* HEADER */
+    .main-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .main-header{  
+        height: 421px;
+        background: url("../images/team.jpg") center center no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .header-container{
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-header-container{
+        background-color: rgba(9, 157, 141,0.95);
+        height: 60px;
+    }
+
+
+
+    .main-menu{
+        height: 45px;
+        background-color: rgba(19, 214, 195, 0.95);
+        
+    }
+    .group-claim-container{
+        height:80px;
+        background-color: #fff;
+
+    }
+
+    .claim-container{
+        width: 100%;
+        background-color: transparent;
+        padding: 0 15px 0 15px;
+        position: absolute;
+        bottom:-40px;
+    }
+
+    .group-claim{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .header-item{
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+    }
 
 
 /* MAIN */
